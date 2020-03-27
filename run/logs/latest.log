@@ -1,0 +1,10 @@
+[27Mar2020 02:25:33.134] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[27Mar2020 02:25:33.437] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[27Mar2020 02:25:33.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[27Mar2020 02:25:33.452] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[27Mar2020 02:25:33.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Mar2020 02:25:33.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Mar2020 02:25:33.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Mar2020 02:25:33.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[27Mar2020 02:25:33.705] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[27Mar2020 02:25:33.725] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved

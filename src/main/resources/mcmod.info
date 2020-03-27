@@ -1,0 +1,12 @@
+[{
+  "modid": "headstart",
+  "name": "Headstart",
+  "description": "Allows you to use head stations to buy heads",
+  "version": "0.0.1",
+  "mcversion": "1.15.2",
+  "logoFile": "assets/headstart/textures/logo.png",
+  "url": "minecraftforge.net/",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["Author"],
+  "credits": "Idek"
+}]
