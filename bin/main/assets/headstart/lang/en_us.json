@@ -1,4 +1,6 @@
 {
 	"item.headstart.nook_bell": "Token",
+	"block.headstart.glowing_grass": "Glowing Grass",
+	"block.headstart.token_block": "Token Block",
 	"itemGroup.headstart": "Headstart"
 }

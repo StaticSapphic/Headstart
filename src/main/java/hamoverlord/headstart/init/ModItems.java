@@ -1,12 +1,28 @@
 package hamoverlord.headstart.init;
 
 import net.minecraft.item.Item;
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+//import net.minecraftforge.registries.ObjectHolder;
 import hamoverlord.headstart.Headstart;
 
 
-@ObjectHolder(Headstart.MODID)
+/**
+ * Holds a list of all our {@link Item}s.
+ * Suppliers that create Items are added to the DeferredRegister.
+ * The DeferredRegister is then added to our mod event bus in our constructor.
+ * When the Item Registry Event is fired by Forge and it is time for the mod to
+ * register its Items, our Items are created and registered by the DeferredRegister.
+ * The Item Registry Event will always be called after the Block registry is filled.
+ * Note: This supports registry overrides.
+ *
+ * @author Cadiboo
+ */
+public final class ModItems {
 
-public class ModItems {
-	public static final Item NOOK_BELL = null;
+	public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Headstart.MODID);
+
+	// This is a very simple Item. It has no special properties except for being on our creative tab.
+	public static final RegistryObject<Item> NOOK_BELL = ITEMS.register("nook_bell", () -> new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)));
 }

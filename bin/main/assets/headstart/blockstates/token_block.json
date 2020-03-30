@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "headstart:block/token_block"
+		}
+	}
+}
